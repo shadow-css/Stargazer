@@ -277,8 +277,8 @@ border-radius: 8px !important;  }
 /* CHAT (This was SO difficult sobs cuz all templates were outdated) */
 
 #fraSidebarChat {
-background: #180424 !important;
-border: 1px solid #230733 !important;
+background: #3b4c9c !important;
+border: 1px solid #384995 !important;
 border-radius: 9px !important;
 overflow: visible !important;
 }
@@ -289,13 +289,13 @@ font-family: Arial, Helvetica, sans-serif !important;
 font-weight: bold !important;
 }
 #fraSidebarChat iframe {
-background: #180424 !important;
+background: #3b4c9c !important;
 border: none !important;
 }
 #fraSidebarChat select {
 background: #FFF9E6 !important;
-color: #180424 !important;
-border: 1px solid #230733 !important;
+color: #3b4c9c !important;
+border: 1px solid #384995 !important;
 border-radius: 4px !important;
 }
 #fraSidebarChat button,
@@ -303,25 +303,25 @@ border-radius: 4px !important;
 #btnChatSettings,
 #btnLoadNewMessages,
 .s-chat-message_menu {
-background: #230733 !important;
+background: #384995 !important;
 color: #FFF9E6 !important;
 border: none !important;
 border-radius: 4px !important;
 }
 #chatMessageList .s-chat-message:nth-child(odd),
 .s-chat-message:nth-child(odd) {
-background: linear-gradient(180deg, #435ac6 0%, #5d71ce 100%) !important;
+background: linear-gradient(180deg, #141A35 0%, #222c5a 100%) !important;
 color: #ffffff !important;
-border: 1px solid #230733 !important;
+border: 1px solid #384995 !important;
 }
 #chatMessageList .s-chat-message:nth-child(even),
 .s-chat-message:nth-child(even) {
-background: linear-gradient(180deg, #44174a 0%, #c48656 100%) !important;
+background: linear-gradient(180deg, #2a3770 0%, #384995 100%) !important;
 color: #ffffff !important;
-border: 1px solid #230733 !important;
+border: 1px solid #384995 !important;
 }
 #chatMessageList {
-background: #180424 !important;
+background: #3b4c9c !important;
 }
 #btnChatSettings::before {
 content: "⚙" !important;
