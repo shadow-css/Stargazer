@@ -46,8 +46,8 @@ position: relative !important;}
 
 h1::before {
 content: "Volkev’s Den" !important;
-color: #1e1916
-font-family: Cinzel, serif !important;
+color: #1e1916;
+font-family: "Trebuchet MS", sans-serif !important;
 font-size: 34px !important;
 font-weight: 900 !important;
 letter-spacing: -0.5px !important;
