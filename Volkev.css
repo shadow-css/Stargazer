@@ -310,7 +310,7 @@ border-radius: 4px !important;
 }
 #chatMessageList .s-chat-message:nth-child(odd),
 .s-chat-message:nth-child(odd) {
-background: linear-gradient(180deg, #6c2a75 0%, #f3b483 100%) !important;
+background: linear-gradient(180deg, #435ac6 0%, #5d71ce 100%) !important;
 color: #ffffff !important;
 border: 1px solid #230733 !important;
 }
