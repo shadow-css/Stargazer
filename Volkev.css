@@ -6,14 +6,12 @@ Majority of edits and tweaks have been made by Shadow #591622, This has become a
 
 ORIGINAL Template made by katie (#106445) and jester (#187561), please check their Template for the full list of users as there are many. */
 
-/* FONTS */
 body {font-family: Verdana;}
  
 .topbar {font-family: Verdana;}
  
 .navbar {font-family: Verdana;}
 
-/* BACKGROUNDS */ 
 @media screen and (min-width: 601px) { 
 body {
 background: url('https://i.postimg.cc/3x1z0Rsn/image.png') center center fixed no-repeat;
@@ -27,7 +25,6 @@ background: url('https://i.postimg.cc/3x1z0Rsn/image.png') center center fixed n
 background-size: cover;
 color: #dbdbdb; } }
 
- /* SCROLL BAR */
 ::-webkit-scrollbar {
 width: 7px;
 height: 7px; }
@@ -35,8 +32,6 @@ height: 7px; }
 background: #ffffff;}
 ::-webkit-scrollbar-thumb {
 background: #000000; } 
- 
-/* HEADERS - Can remove the H1 “Before” if they don’t want a den title, H3 is the default text */
 
 h1 {
 color: transparent !important;
@@ -69,8 +64,6 @@ h3 {
 color: #b7bdde !important;
 font-size: 18px;}
 
-/* LINKS - Every Link on the page.*/
-
 a:link,
 a:visited {
 color: #7380c0 !important;
@@ -79,19 +72,17 @@ background: none !important; }
 a:hover {
 color: #EFA383 !important; }
 
-/* Beetle Glow! */
 img[src*="beetle"], img[src*="gb.png"], img[src*="sb.png"] {
     filter: drop-shadow(0px 0px 4px #ffd700) !important;
     transition: transform 0.2s ease !important;
 }
 
-/* --- Mound Box Glow --- */
+
 .mound-grid img {
     filter: drop-shadow(0px 0px 5px #478bff) !important;
     transition: transform 0.2s ease !important;
 }
 
-/* MAIN PANEL - The big gray stripe in the center in front of the background. */ 
 .container.main {
 background: rgba(7, 11, 25, .8);
 border: 3px solid #7380c0;
@@ -100,7 +91,6 @@ border-radius: 13px; }
 .col-md-9 {
 background: none; } 
  
-/* TOPBAR, NAVBAR, & BREADCRUMB */
 .topbar {
 background: #000000 !important; 
 background: linear-gradient(180deg, #141A35 0%, #222c5a 100%) !important; 
@@ -124,7 +114,7 @@ color: #EFA383 !important;
 border-radius: 8px;
 }
 
-/* Mobile Fixes */
+
 .navbar-toggle {
 border: none !important;
 background: linear-gradient(90deg, #141A35 0%, #222c5a 100%) !important;
@@ -135,7 +125,7 @@ box-shadow: none !important;
 border-top: none !important;
 }
 
-/* BOOKMARK BAR */
+
 .breadcrumb {
 background: linear-gradient(180deg, #141A35 0%, #222c5a 100%) !important;
 color: #ffffff !important;
@@ -178,8 +168,6 @@ color: #ffffff; }
 }
 
 
-/*COMMENT BOX - The actual Box color */
-
 div#commentBox {
 background: linear-gradient(90deg, #303e7f 0%, #222c5a 100%) !important;
 border: none !important;
@@ -189,29 +177,25 @@ padding-top: 40px !important;
 }
 
 div#commentBox > b, div#commentBox > strong {
-    display: none !important;
+display: none !important;
 }
 
-/* CUSTOM COMMENT MESSAGE */
 div#commentBox::before {
 content: "What do the skies speak of?" !important; 
 position: absolute !important;
 top: 8px !important;
 left: 0px !important;
 width: 100% !important;
-
 font-family: 'Great Vibes', cursive !important; 
 font-size: 18px !important;          
 font-weight: normal !important;      
 letter-spacing: 0.5px !important;
 text-align: center !important;
-    
 color: #FFF9E6 !important;
 text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important; 
 display: block !important;
 }
 
-*/ This is to change the background of the comments themselves */
 .comment {     
 background: linear-gradient(180deg, #445ea6 0%, #354982 100%) !important;
 border: none !important;
@@ -225,21 +209,25 @@ text-align: left !important;
 background: linear-gradient(180deg, #445ea6 0%, #354982 100%) !important;
 }
 
-
 .text-muted { 
-color: #b7bdde !important; }
+color: #b7bdde !important; 
+}
 
 button, input[type="submit"], .btn-primary {
 background: linear-gradient(180deg, #141A35 0%, #222c5a 100%) !important;
-color: #HEX !important;
+color: #ffffff !important;
 border: 1px solid #230733 !important;
 border-radius: 6px !important;
 }
 
 table#player.table hr {
-display: none; }
+display: none !important; 
+}
+
 table#player.table div.xlarge { 
-margin-top: 10px !important; }
+margin-top: 10px !important; 
+}
+
 
 /* SIDE PANELS */ 
 .panel {
@@ -248,8 +236,6 @@ color: #HEX !important;
 border: none !important;
 border-radius: 6px !important;
 box-shadow: none !important;  }
-
-/* PROGRESS BARS */
 
 .progress-bar {
 background: linear-gradient(180deg, #949ece 0%, #5d71ce  100%) !important;
@@ -268,13 +254,10 @@ color: #HEX !important;}
 .progress div {
 color: #HEX !important; }
 
-/* PROGRESS BAR BACKGROUND */
 .progress {
 background:  #3b4c9c;
 color: #HEX !important;
 border-radius: 8px !important;  }
-
-/* CHAT (This was SO difficult sobs cuz all templates were outdated) */
 
 #fraSidebarChat {
 background: #3b4c9c !important;
@@ -382,7 +365,6 @@ color: #ffffff !important; }
 html.nolayout {
 background: none !important; }
  
-/* KING DYNASTY/FEATURED/ETC. */
 
 .feature {
 background: linear-gradient(180deg, #5c2463 0%, #e4a574 100%) !important;
@@ -402,8 +384,6 @@ border-radius: 0px !important;
 font-size: 14px !important;
 }
  
-/* KING PROFILE - Top: King’s Name/Title Bar .inner-table .left: Info about Den (Territory/Stats)
-.inner-table .right: Text next to King’s Info */
 
 .table {
 background: linear-gradient(180deg, #141A35 0%, #222c5a 100%) !important;
@@ -485,7 +465,6 @@ img[src$="icon_den_friend.png"] {
 content: url('https://i.postimg.cc/bvdvrd6g/image.png') !important;
 width: 28px !important; }
 
-/* LION AND USER AVATAR OPACITY */
 
 div#lion_image {
 opacity: 1.0;
@@ -495,7 +474,7 @@ table#player img {
 opacity: 1.0;
 border-radius: 50%; }
 
-/* LIODEN LOGO REPLACER */
+
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
     display: none !important;
 }
@@ -528,7 +507,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
     padding-left: 95px !important;
 }
  
-/* TEXT BOXES & BUTTONS */
+
  
 input, textarea, select, button.button,
 a.btn.btn-default.button {
@@ -538,8 +517,7 @@ border-radius: 4px !important;
 color: #FFF9E6 !important;
 text-shadow: none !important;
 }
- 
- /* CAVE IMAGES - If I want to do images separate I know what to do */
+
 .cave-grid,
 .mound-grid {
 background: #000000 !important;
@@ -554,7 +532,7 @@ img[src*="unsortedlionsbanner.png"] {
     height: 60px !important;
 }
 
-/* Making Cave and Beetle Images brighten upon hover */
+
 a:hover, a:active, 
 .feature:hover, .panel:hover, .cave-grid:hover,
 input:hover, select:hover, textarea:hover {
@@ -566,7 +544,7 @@ img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
     transform: scale(1.2) !important;
 } 
 
-/* Here’s where the images start */
+
 div.cave-grid>img {
 content: url('https://images.unsplash.com/photo-1593481118939-40dea95585ad?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')!important;
 object-fit: cover !important;
@@ -622,7 +600,7 @@ Credit may not be removed! */
 }
 
 
-/* CREDITS */
+/* CREDITS | DO NOT REMOVE */
 
 
 .breadcrumb::before {
