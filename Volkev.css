@@ -193,6 +193,12 @@ color: #FFF9E6 !important;
 text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important; 
 display: block !important;
 }
+
+div#commentBox {
+background: linear-gradient(90deg, #445ea6 0%, #222c5a 100%) !important;
+border: none !important;
+border-radius: 9px !important;
+}
 .comment {     
 background: linear-gradient(180deg, #445ea6 0%, #354982 100%) !important;
 border: none !important;
