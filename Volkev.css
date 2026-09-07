@@ -175,11 +175,9 @@ border-radius: 9px !important;
 position: relative !important;
 padding-top: 40px !important;
 }
-
 div#commentBox > b, div#commentBox > strong {
 display: none !important;
 }
-
 div#commentBox::before {
 content: "What do the skies speak of?" !important; 
 position: absolute !important;
@@ -195,7 +193,6 @@ color: #FFF9E6 !important;
 text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important; 
 display: block !important;
 }
-
 .comment {     
 background: linear-gradient(180deg, #445ea6 0%, #354982 100%) !important;
 border: none !important;
@@ -204,29 +201,25 @@ border-radius: 0px !important;
 color: #c9acff !important;
 text-align: left !important;
 }
-
 .comment:nth-child(even) {     
 background: linear-gradient(180deg, #445ea6 0%, #354982 100%) !important;
 }
-
 .text-muted { 
 color: #b7bdde !important; 
 }
-
 button, input[type="submit"], .btn-primary {
 background: linear-gradient(180deg, #141A35 0%, #222c5a 100%) !important;
 color: #ffffff !important;
 border: 1px solid #230733 !important;
 border-radius: 6px !important;
 }
-
 table#player.table hr {
 display: none !important; 
 }
-
 table#player.table div.xlarge { 
 margin-top: 10px !important; 
 }
+
 
 
 /* SIDE PANELS */ 
